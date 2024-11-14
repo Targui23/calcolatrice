@@ -1,0 +1,128 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 260px;
+}
+
+#calculatrice {
+    width: 250px;
+    height: 525px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 49px;
+    padding: 14px;
+    background-color: rgba(0, 0, 0, 0.61);
+    
+    
+}
+
+#cadre{
+    width: 300px;
+    height: 570px;
+    border: solid 1px rgba(255, 255, 255, 0.39);
+    border-radius: 45px;
+    background-color: black;
+}
+
+#screen {
+    border: solid 1px black;
+    width: 275px;
+    margin: 0;
+    height: 230px;
+    border-radius: 49px;
+    position: relative;
+    top: 0%;
+    left: 4px;
+    font-size: 50px;
+    caret-color: transparent;
+    background-color: black;
+    color: white;
+    
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -10px;
+    bottom: 20px;
+    width: 280px;
+    height: 360px;
+    margin: 17px;
+    background-color:transparent;
+    
+}
+
+#row{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: start;
+    
+}
+
+#calcul{
+    position: relative;
+    left: -42px;
+    bottom: -24px;
+    
+    
+
+}
+
+#calcul button {
+    width: 65px;
+    height: 65px;;
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: grey;
+    color: black;
+    border: solid 1.5px orangered;  
+}
+
+#contnumb button{
+    width: 65px;
+    height: 65px;
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: grey;
+    border: solid 1.5px orangered;
+    
+    
+}
+
+#contnumb {
+    width: 195px;
+    height: 260px;
+    position: relative;
+    left: -9px;
+    bottom: -23px;
+    
+
+
+}
+#operateurs{
+    width: 65px;
+    height: 340px;
+    position: relative;
+    left: 10px;
+    bottom: 44px;
+    
+    
+}
+
+#operateurs button{
+    width: 65px;
+    height: 65px;
+    font-size: 30px;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    background-color: orangered ;
+    border: solid 1.5px grey;
+}
